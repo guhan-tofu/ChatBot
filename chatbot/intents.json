@@ -15,10 +15,10 @@
         "Hey! How's it going?"
       ],
       "responses": [
-        "Hello! Welcome to Technocit.",
-        "Hi there, how can Technocit assist you today?",
+        "Hello! Welcome to [Your Company].",
+        "Hi there, how can [Your Company] assist you today?",
         "Greetings! How can we help you?",
-        "Hello, thanks for reaching out to Technocit."
+        "Hello, thanks for reaching out to [Your Company]."
       ]
     },
     {
@@ -35,7 +35,7 @@
       ],
       "responses": [
         "Goodbye! Have a great day.",
-        "See you soon, thank you for contacting Technocit.",
+        "See you soon, thank you for contacting [Your Company].",
         "Bye! Feel free to reach out anytime."
       ]
     },
@@ -63,7 +63,7 @@
       "patterns": [
         "What services do you offer?",
         "Can you tell me about your services?",
-        "What does Technocit provide?",
+        "What does [Your Company] provide?",
         "What solutions do you have?",
         "I need your list of services",
         "Tell me the services you provide",
@@ -72,129 +72,37 @@
         "List your services"
       ],
       "responses": [
-        "Technocit offers a range of services including ERP Solutions, Digital Marketing, Product Engineering, Web/Mobile applications, E-commerce, Enterprise Web Content Management Systems, Web Designs, and Digital Solution Consultation."
+        "[Your Company] offers a range of services including [Service 1], [Service 2], [Service 3], and [Service 4]."
       ]
     },
     {
-      "tag": "erp_solutions",
+      "tag": "specific_service_1",
       "patterns": [
-        "Tell me about your ERP Solutions",
-        "Do you provide ERP Solutions?",
-        "What are your ERP services?",
-        "Can you explain ERP Solutions?",
-        "Do you have ERP services?",
-        "ERP solutions details",
-        "ERP services info"
+        "Tell me about your [Service 1]",
+        "Do you provide [Service 1]?",
+        "What are your [Service 1] services?",
+        "Can you explain [Service 1]?",
+        "Do you have [Service 1] services?",
+        "[Service 1] details",
+        "[Service 1] services info"
       ],
       "responses": [
-        "We offer comprehensive ERP Solutions tailored to your business needs, ensuring efficient and streamlined operations."
+        "We offer comprehensive [Service 1] tailored to your business needs, ensuring efficient and streamlined operations."
       ]
     },
     {
-      "tag": "digital_marketing",
+      "tag": "specific_service_2",
       "patterns": [
-        "Do you offer digital marketing?",
-        "Tell me about your digital marketing services",
-        "Can you help with digital marketing?",
-        "Digital marketing details",
-        "Do you provide marketing services?",
-        "Marketing solutions",
-        "Digital marketing assistance"
+        "Do you offer [Service 2]?",
+        "Tell me about your [Service 2] services",
+        "Can you help with [Service 2]?",
+        "[Service 2] details",
+        "Do you provide [Service 2] services?",
+        "[Service 2] solutions",
+        "[Service 2] assistance"
       ],
       "responses": [
-        "Yes, we provide digital marketing services to boost your online presence and drive targeted traffic to your business."
-      ]
-    },
-    {
-      "tag": "product_engineering",
-      "patterns": [
-        "What is product engineering?",
-        "Do you offer product engineering?",
-        "Tell me about your product engineering services",
-        "Product engineering info",
-        "Do you have product engineering?",
-        "Engineering solutions",
-        "Product development services"
-      ],
-      "responses": [
-        "Our product engineering services encompass the entire product lifecycle, from conceptualization and design to development and deployment, ensuring innovative and high-quality solutions."
-      ]
-    },
-    {
-      "tag": "web_mobile_apps",
-      "patterns": [
-        "Do you develop mobile apps?",
-        "Can you create a web application for me?",
-        "Tell me about your web and mobile app services",
-        "App development services",
-        "Mobile apps creation",
-        "Web application development",
-        "Do you build web apps?",
-        "App solutions info"
-      ],
-      "responses": [
-        "We specialize in developing world-class web and mobile applications that are robust, scalable, and user-friendly."
-      ]
-    },
-    {
-      "tag": "ecommerce",
-      "patterns": [
-        "Do you build e-commerce websites?",
-        "Tell me about your e-commerce solutions",
-        "Can you help me set up an online store?",
-        "E-commerce services info",
-        "Online store creation",
-        "E-commerce solutions",
-        "E-commerce website development"
-      ],
-      "responses": [
-        "Yes, we provide comprehensive e-commerce solutions to help you set up and manage your online store effectively."
-      ]
-    },
-    {
-      "tag": "cms",
-      "patterns": [
-        "Do you offer web content management systems?",
-        "Can you help with CMS?",
-        "Tell me about your CMS services",
-        "Content management system info",
-        "CMS solutions",
-        "Web CMS services",
-        "Do you provide CMS?"
-      ],
-      "responses": [
-        "We offer enterprise-level web content management systems to help you manage your digital content efficiently and effectively."
-      ]
-    },
-    {
-      "tag": "web_design",
-      "patterns": [
-        "Do you provide web design services?",
-        "Can you design a website for me?",
-        "Tell me about your web design solutions",
-        "Website design services",
-        "Web design details",
-        "Do you offer website design?",
-        "Professional web design",
-        "Custom website design"
-      ],
-      "responses": [
-        "Yes, we provide professional web design services to create visually appealing and user-friendly websites tailored to your needs."
-      ]
-    },
-    {
-      "tag": "consultation",
-      "patterns": [
-        "Do you offer digital solution consultation?",
-        "Can I get consultation services?",
-        "Tell me about your consultation services",
-        "Consultation info",
-        "Consulting services details",
-        "Digital consultation help",
-        "Do you provide consultation?"
-      ],
-      "responses": [
-        "We offer expert digital solution consultation to help you navigate the complexities of the digital world and achieve your business goals."
+        "Yes, we provide [Service 2] to boost your [related benefit] and drive targeted traffic to your business."
       ]
     },
     {
@@ -207,33 +115,33 @@
         "Ways to reach you",
         "Your contact info",
         "Get in touch",
-        "How to contact Technocit"
+        "How to contact [Your Company]"
       ],
       "responses": [
-        "You can contact us via email at info@technocit.com or call us at +971-4-123-4567. We are here to assist you."
+        "You can contact us via email at [Your Email] or call us at [Your Phone Number]. We are here to assist you."
       ]
     },
     {
       "tag": "company_info",
       "patterns": [
-        "Tell me about Technocit",
-        "What is Technocit?",
+        "Tell me about [Your Company]",
+        "What is [Your Company]?",
         "Can you give me some information about your company?",
         "Company details",
         "Company information",
-        "About Technocit",
+        "About [Your Company]",
         "Info about your company",
         "Company background"
       ],
       "responses": [
-        "Technocit is a leading provider of digital solutions including ERP Solutions, Digital Marketing, Product Engineering, Web/Mobile applications, E-commerce, Enterprise Web Content Management Systems, Web Designs, and Digital Solution Consultation. Our goal is to help businesses achieve their digital transformation goals."
+        "[Your Company] is a leading provider of [Service 1], [Service 2], [Service 3], and [Service 4]. Our goal is to help businesses achieve their [related goal]."
       ]
     },
     {
       "tag": "working_hours",
       "patterns": [
         "What are your working hours?",
-        "when can I visit",
+        "When can I visit?",
         "When are you open?",
         "What is your business schedule?",
         "Working hours details",
@@ -242,7 +150,7 @@
         "When do you operate?"
       ],
       "responses": [
-        "Our working hours are from 9:00 AM to 6:00 PM, Monday to Friday. We are closed on weekends and public holidays."
+        "Our working hours are from [Opening Time] to [Closing Time], [Days Open]. We are closed on [Days Closed]."
       ]
     },
     {
@@ -258,9 +166,8 @@
         "How can I find you?"
       ],
       "responses": [
-        "We are located at 123 Business Street, Business Bay, Dubai, UAE. Feel free to visit us during our working hours."
+        "We are located at [Your Address]. Feel free to visit us during our working hours."
       ]
     }
   ]
 }
-
