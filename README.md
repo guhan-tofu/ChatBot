@@ -40,4 +40,4 @@ It should return the correct prompt, if not use the json template given.
 `flask run` - let the chatbot file run in background
 
 
-Open the [frontend-standalone file](https://github.com/guhan-tofu/ChatBot/tree/main/standalone-frontend) in another window and run with debugging
+Open the [frontend-standalone](https://github.com/guhan-tofu/ChatBot/tree/main/standalone-frontend) file in another window and run with debugging
